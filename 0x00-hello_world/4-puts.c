@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - gateway to run the code
- * return : 0 (when no code to run)-
+ * main - puts.c
+ * Return:  0 (when nocode)
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+        puts("\"Programming is like building a multilingual puzzle");
+        return (0);
 }
