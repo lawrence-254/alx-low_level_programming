@@ -17,10 +17,11 @@ int main(void)
 	putchar(a);
 a++;
 	}
-while (b <= 'a')
+while (b <= 'Z')
 {
 putchar(b);
 b++;
 }
+putchar('\n');
 return (0);
 }
