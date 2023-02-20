@@ -4,12 +4,13 @@
 /**
  * main - c gateway
  *
- * return 0 c validation
+ * Return: 0 c validation
  */
 int main(void)
 {
 	int i;
-	for (i = '0'; i < '9'; i++)
+
+	for (i = '0'; i < '10'; i++)
 	{
 		putchar(i);
 		if (i != 9)
