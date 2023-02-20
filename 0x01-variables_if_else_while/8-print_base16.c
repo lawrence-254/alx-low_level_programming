@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - c gateway point
  *
@@ -10,19 +12,10 @@ int main(void)
 
 	int j;
 
-	i = 'a';
-
-	j = 0;
-	while (j < 10)
-	{
-		putchar(j + '0');
-		j++;
-	}
-	while (i <= 'f')
-	{
+	for (j = '0' ; j <= '9' ; j++)
+		putchar(j);
+	for (i = 'a' ; i <= 'f' ; i++)
 		putchar(i);
-		i++;
-	}
 	putchar('\n');
 	return (0);
 }
