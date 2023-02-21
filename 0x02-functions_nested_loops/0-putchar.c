@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <main.h>
-/**
- * main - c gateway
+#include <unistd.h>
+/*
+ * _putchar - repaces main 
  *
  * Return: 0 shows succes
  */
-int main(void)
+int _putchar(void)
 {
-	putchar("Hello from Putchar\n")
+	return("Hello from Putchar\n");
 }
