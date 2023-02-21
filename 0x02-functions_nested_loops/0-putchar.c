@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <unistd.h>
-/*
- * _putchar - repaces main 
+#include <main.h>
+/**
+ * main - getway to the function
  *
- * Return: 1 shows succes
+ * Return: 0 on success
  */
-int _putchar(char i)
+int main(void)
 {
-	i = "Hello from Putchar)"
-	return(write(1, &i, 1)) ;
+	_putchar("Hello from putchar\n");
+	return (0);
 }
