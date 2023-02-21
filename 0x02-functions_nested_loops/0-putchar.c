@@ -3,9 +3,10 @@
 /*
  * _putchar - repaces main 
  *
- * Return: 0 shows succes
+ * Return: 1 shows succes
  */
-int _putchar(void)
+int _putchar(char i)
 {
-	return("Hello from Putchar\n");
+	i = "Hello from Putchar)"
+	return(write(1, &i, 1)) ;
 }
