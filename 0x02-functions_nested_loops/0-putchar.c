@@ -6,6 +6,11 @@
  */
 int main(void)
 {
-	_putchar("Hello from putchar\n");
+	_putchar('H');
+	_putchar('e');
+	_putchar('l');
+	_putchar('l');
+	_putchar('o');
+	_putchar('\n');
 	return (0);
 }
