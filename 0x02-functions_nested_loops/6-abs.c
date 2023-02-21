@@ -4,7 +4,7 @@
  * _abs - gets absolute value of integer
  *
  * @c: interger i question
- * Return: absolute value of integer or zero 
+ * Return: absolute value of integer or zero
  */
 int _abs(int c)
 {
