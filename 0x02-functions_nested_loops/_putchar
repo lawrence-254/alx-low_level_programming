@@ -1,8 +1,0 @@
-#include "main.h"
-#include <stdio.h>
-/**
-*_putchar - a function thatruns
-*
-*Return: 1 when succesfull and -1 when not
-*/
-
