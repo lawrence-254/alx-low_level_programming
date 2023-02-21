@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_sign - print the sign of the number
+ *
  * @n: the number in question
  * Return -1 for negative and 1 for positive
  */
