@@ -5,7 +5,7 @@
  *
  * Return: 0 shows succes
  */
-int maid(void)
+int main(void)
 {
 	putchar("Hello from Putchar\n")
 }
