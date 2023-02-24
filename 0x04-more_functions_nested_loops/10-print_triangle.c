@@ -1,13 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_triangle - outputs triangle to the terminal
  * @size: size of the triangle
  */
-void print_triangle(in size)
+void print_triangle(int size)
 {
 	if (size < 0)
 	{
-		_putchar('\n')
+		putchar('\n');
 	}
 	else
 	{
@@ -17,13 +18,13 @@ void print_triangle(in size)
 		{
 			for (j = i; j < size; j++)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
 			for (j = 1; j <= i; j++)
 			{
-				_putchar('#');
+				putchar('#');
 			}
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 }
