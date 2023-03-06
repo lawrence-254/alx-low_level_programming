@@ -5,7 +5,7 @@
  * @c: the character in question
  * Return: 1 when successfull, -1 when unsuccessfull
  */
-int _putchar(char c)
+char _putchar(char c)
 {
 return(write(1, &c, 1));
 }
