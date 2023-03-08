@@ -7,7 +7,7 @@
 int main(void)
 {
 	int r;
-	
+
 	r = factorial(1);
 	printf("%d\n", r);
 	r = factorial(5);
