@@ -11,11 +11,12 @@ int _strlen_recursion(char *s)
 		return (0);
 	}
 	return (1 + _strlen_recursion(++s));
-}       
+}
 /**
- * p1 - parlidrome
+ * p1 - is one parlidrome
  * @s: pointer to string
  * @l: position
+ * Return: 0 or 1
  */
 int p1(char *s, int l)
 {
