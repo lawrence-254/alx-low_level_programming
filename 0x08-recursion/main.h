@@ -1,8 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
-#include <unistd.h>
 /**
  * File: main.h
  * Desc: Header files for alx 0x08 recursion test.
