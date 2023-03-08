@@ -1,23 +1,23 @@
 #include "main.h"
 /**
  * ev_num - test for condition
- * @num: integer
+ * @n: integer
  * @i: iterator
  * Return: 0 or 1
  */
-int ev_num(int num, int i)
+int ev_num(int n, int i)
 {
-	if (i == num - 1)
+	if (i == n - 1)
 	{
 		return (1);
 	}
-	else if (num % i == 0)
+	else if (n % i == 0)
 	{
 		return (0);
 	}
-	if (num % i != 0)
+	if (n % i != 0)
 	{
-		return (ev_num(num, i + i));
+		return (ev_num(n, i + i));
 	}
 	return (0);
 }
@@ -28,7 +28,9 @@ int ev_num(int num, int i)
  */
 int is_prime_number(int n)
 {
-	int i = 2;
+	int i;
+
+	i = 2;
 
 	if (n < 2)
 	{
@@ -38,5 +40,5 @@ int is_prime_number(int n)
 	{
 		return (1);
 	}
-	return (ev_num(num, i));
+	return (ev_num(n, i));
 }

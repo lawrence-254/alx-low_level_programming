@@ -14,7 +14,7 @@ int find_sqrt(int i, int n)
 	else if (i * i < n)
 		return (find_sqrt(i + 1, n));
 
-	else if (i * 1 == n)
+	else if (i * i == n)
 		return (i);
 
 	return (-1);
