@@ -1,5 +1,4 @@
 #include "main.h"
-int _sqr_recursion(int n);
 /**
  * find_sqrt - function that returns the natural square root of a number
  * @n: numeber in question
@@ -22,11 +21,11 @@ int find_sqrt(int i, int n)
 	return (-1);
 }
 /**
- * _sqr_recursion - accepts a function returning squarerrot
+ * _sqrt_recursion - accepts a function returning squarerrot
  * @n: integer
  * Return: _sqr_recursion
  */
-int _sqr_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	int i = 0;
 
