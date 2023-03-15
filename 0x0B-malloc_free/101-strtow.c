@@ -51,18 +51,20 @@ char **strtow(char *str)
 {
 	char **strings;
 	int index = 0;
-	int words;
 	int w;
 	int letters;
-	int l;
+	int l, word;
 
 	if (str == NULL || str[0] == '\0')
 		return (NULL);
-	strings = malloc(sizeof(char *) * (words + 1));
+	word = count_words(str);
+	if (word == 0)
+		return (NULL);
+	strings = malloc(sizeof(char *) * (word + 1));
 	if (strings == NULL)
 		return (NULL);
 
-	for (w = 0; w < words; w++)
+	for (w = 0; w < word; w++)
 	{
 		while (str[index] == ' ')
 			index++;
