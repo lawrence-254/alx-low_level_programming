@@ -9,15 +9,16 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int bit_size = strlen(b);
 	unsigned int result = 0;
+	int i;
 
-	for (int i = 0; i < bit_size; i++;)
+	if (!b)
+		return (0);
+	for (i = 0; b[i]; i++)
 	{
-		int to_integer = b[1] - '0';
-		int super = bit_size - 1 - i;
-		int new = to_integer *(unsigned int) pow(2,super);
-		result += new;
+		int to_integer = b[i] - '0';
+
+		result = 2 * result + to_integer;
 	}
-	return result;
+	return (result);
 }
