@@ -13,11 +13,11 @@ int i, count = 0;
 unsigned long int xor = n ^ m, new;
 for (i = 63; i >= 0; i--)
 {
+	new = xor >> i;
 	if (new & 1)
 	{
 		count++;
 	}
-	new = xor >> i;
 }
 return (count);
 }
