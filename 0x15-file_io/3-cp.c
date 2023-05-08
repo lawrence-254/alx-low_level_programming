@@ -39,11 +39,8 @@ void close_file(int fd)
  * @argc: size of arguments
  * @argv: value of arguments
  * Return: 0 on success
- * :exit code 97-If the argument count is incorrect
- * :''98-If file_from does not exist or cannot be read
- * or 99-If file_to cannot be created or written to
- * (100-If file_to or file_from cannot be closed)
  */
+
 int main(int argc, char *argv[])
 {
 	int from, to, r, w;
