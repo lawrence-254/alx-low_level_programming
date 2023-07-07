@@ -3,7 +3,7 @@
  * hash_table_get - a function that retrieves a value associated with a key
  * @ht: is the hash table to look into
  * @key: is the key you are looking for
- * Returns: the value associated with the element, or NULL
+ * Return: the value associated with the element, or NULL
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
@@ -19,7 +19,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	while (current_node != NULL)
 	{
 		if (strcmp(current_node->key, key) == 0)
-			return current_node->value;
+			return (current_node->value);
 		current_node = current_node->next;
 	}
 	return (NULL);
